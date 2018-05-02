@@ -1,0 +1,25 @@
+Assessment Deliverables
+
+1.	For Front End application : Application committed in Gitlab at http://172.18.2.18/Manoj.KumarK/ProjectManagerApp
+
+2.	 For Backend Packaged code files.:-- Application committed in Gitlab at http://172.18.2.18/Manoj.KumarK/ProjectManagerApi
+
+3.	For SCM* Project Code should be present in active GIT repository:--
+
+Please find both front end and backend projects at http://172.18.2.18/Manoj.KumarK
+
+4.	Few Steps on how to run the solution.: 
+For Web API(.Net code), Please open the solution in VS2017, please set the connection string in web.config file. I have used Sql server authentication. I have used “sa” as user id and “password1” as password. Please reset your “sa”  login password to “password1” or replace connection string password with existing “sa” password. Please run the application and call api methods as an example, localhost:61734/api/getallusers. Getallusers method will fetch all existing users from database.
+
+For web app(angular app): Please open the app in Visual Studio code and execute following commands,
+a.	npm install : to install dependent packages
+b.	ng serve : to build and run
+c.	Open any browser and load , localhost:4200, will load angular app
+
+5.	Regular Build Reports from CI server : Uploaded along with this in the zip folder as “BuildLogs”
+
+6.	Emma coverage reports : NCover code coverage report available in “Web Api Code Coverage reports” folder in the zip and Jasmin(karma) angular test coverage reports in “JasminUnitCodeCoverage reports”. Open the Index.html file in the coverage folder for code coverage report.
+
+
+7.	Load test reports: NBench load testing report available in “NbenchLoadtestReport” folder.
+
